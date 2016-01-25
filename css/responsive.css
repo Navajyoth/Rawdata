@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+@media only screen and (max-width: 991px){
+.menuright {
+	display:none;
+}
+.mobmenu{
+	display:block;
+}
+.whowerow, .whoweclm{
+	height:350px;
+}
+.lapwrop, .mobwrp {
+	display:none;
+}
+}
+@media only screen and (max-width: 767px){
+	.aplicationbox.border_right.border_left{
+		border-right:none;
+		border-left:none;
+		border-top:1px solid #ccc;
+		border-bottom:1px solid #ccc;
+		padding:10px 0;
+		margin:10px 0;
+	}
+.aptiltebrek {
+    display: inline;
+}
+
+.coreboxin{
+	padding-right:0;
+}
+ .c_2, .c_4{
+	 border-right:none;
+ }
+ .c_4{
+	 border-bottom:1px solid #ccc;
+ }
+ .noboder_r.c_3{
+	 border-right:1px solid #ccc !important;
+ }
+ .sectionimage {
+	 text-align:center !important;
+	 margin-bottom:20px;
+ }
+.whowerow {
+    float: left;
+    height: auto;
+    width: 100%;
+	margin-bottom:10px;
+}
+ 
+.whoweclm {
+	float:right;
+}
+.whowelink{
+	position:relative !important;
+	left: inherit;
+	bottom: inherit;
+		margin-top:40px;
+
+}
+}
+@media only screen and (max-width:640px){
+.slidercontent {
+	width:100% !important;
+	text-align:center;
+}
+.sangar-slideshow-container .sangar-content-wrapper .sangar-content .sangar-textbox{
+	padding:50px 10px !important;
+}
+.morecoreh4{
+	font-size:30px;
+}
+}
+@media only screen and (max-width:480px){
+ .slidercontent h4.fontsize48{
+	 font-size:35px;
+ }
+ .slidercontent p.fontsize18 {
+	 font-size:14px;
+ }
+ .whowecntntclmin, .deatilswhowein {
+	 padding:20px 10px;
+ }
+ .whowul {
+	 padding:0;
+ }
+ .cc_bb{
+	 font-size:14px;
+ }
+}
+@media only screen and (max-width:360px){
+ .slidercontent h4.fontsize48{
+	 font-size:25px;
+ }
+}
